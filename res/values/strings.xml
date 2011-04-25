@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Hello World, Run444!</string>
+    <string name="hello">Hello World, This is the skeleton android structure. </string>
     <string name="app_name">CS444 Final</string>
+    <string name="close">Exit program</string>
 </resources>
