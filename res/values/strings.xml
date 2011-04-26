@@ -6,4 +6,13 @@
     <string name="new_label">New Test</string>
     <string name="about_label">About</string>
     <string name="exit_label">Exit</string>
+    
+    <string name="about_title">About Task Switching Analizer</string>
+    <string name="about_text">
+    This application is designed to time and analyze
+    running services on Android machines. \n \n Developer: 
+    Lior Ben-kiki \n Version: 0.1.2 
+    (released 4/25/2011) \n http://www.liorbk.com
+    </string>
+    
 </resources>
