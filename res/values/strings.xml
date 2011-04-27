@@ -15,4 +15,12 @@
     (released 4/25/2011) \n http://www.liorbk.com
     </string>
     
+    <string name="settings_label">Settings</string>
+    <string name="settings_title">Task Switcher Settings</string>
+    <string name="settings_shortcut">s</string>
+    <string name="save_title">Save</string>
+    <string name="save_summary">Save analyzed data to file</string>
+    <string name="email_title">Email</string>
+    <string name="email_summary">Email results to my inbox</string>
+    
 </resources>

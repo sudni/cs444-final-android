@@ -3,6 +3,9 @@ package cs444.and;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 
@@ -27,6 +30,7 @@ public class Run444 extends Activity implements OnClickListener{
         exitButton.setOnClickListener(this);
     }
     
+    //actions that respond to main menu buttons
     public void onClick(View v) {
     	switch (v.getId()) {
     	case R.id.about_button:
@@ -38,4 +42,27 @@ public class Run444 extends Activity implements OnClickListener{
     		break;
     	}
     }
+    
+    //create the pop-up menu on the bottom
+    public boolean onCreateOptionsMenu(Menu menu){
+    	super.onCreateOptionsMenu(menu);
+    	MenuInflater inflater = getMenuInflater();
+    	inflater.inflate(R.menu.menu, menu);
+    	return true;
+    }
+    
+    //details the different buttons on the pop-up menu
+    public boolean onOptionsItemSelected(MenuItem item){
+    	switch (item.getItemId()){
+    	case R.id.settings:
+    		startActivity(new Intent(this, Prefs.class));
+    		return true;
+    	case R.id.about:
+    		startActivity(new Intent(this, About.class));
+    		return true;
+    	//might add more later if I have the time
+    	}
+    	return false;
+    }
+    
 }
