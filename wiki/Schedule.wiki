@@ -1,0 +1,31 @@
+=Schedule=
+
+
+==April 28, 2011==
+
+  * Finish ui design and coding
+  * Build wiki to explain my work
+
+==May 5, 2011==
+
+  * Finish services viewer
+  * Finish testing for ui
+
+==May 8, 2011==
+
+  * Timing: base case for 2 hard coded processes
+  * Finish wiki for services 
+
+==May 11, 2011==
+
+  * Timing: finish timing tester
+
+==May 12, 2011==
+
+  * Finish wiki for timing
+  * Finish testing for timing
+
+==May 13, 2011==
+
+  * Package apk
+  * Deliver To professor Cheung
