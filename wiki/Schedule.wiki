@@ -3,7 +3,7 @@
 
 ==April 28, 2011==
 
-  * Finish ui design and coding
+  * [https://github.com/evcordeiro/SNOctopus/wiki/Accept.png] Finish ui design and coding
   * Build wiki to explain my work
 
 ==May 5, 2011==
