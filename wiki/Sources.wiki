@@ -1,0 +1,16 @@
+=Bibliography=
+
+===Websites used===
+
+  * Android @ Xda-developers. <http://www.xda-developers.com/>.
+
+  * Android Developers. <http://developer.android.com/>.
+
+
+===Books===
+
+  * Best, Steve. _Linux Debugging and Performance Tuning: Tips and Techniques. Upper Saddle_ River, NJ: Prentice Hall Professional Technical Reference, 2006. Print.
+
+  * Burnette, Ed. _Hello, Android: Introducing Google's Mobile Development Platform; [Android 2]_. Raleigh, NC [u.a.: Pragmatic helf, 2010. Print.
+
+  * Steele, James, and Nelson To. _The Android Developer's Cookbook: Building Applications with the Android SDK._ Upper Saddle River, NJ: Addison-Wesley, 2011. Print.
