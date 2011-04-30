@@ -4,12 +4,12 @@
 ==April 28, 2011==
 
   * [https://github.com/evcordeiro/SNOctopus/wiki/Accept.png] Finish ui design and coding
-  * Build wiki to explain my work
+  * [https://github.com/evcordeiro/SNOctopus/wiki/Accept.png] Build wiki to explain my work
 
 ==May 5, 2011==
 
   * Finish services viewer
-  * Finish testing for ui
+  * [https://github.com/evcordeiro/SNOctopus/wiki/Accept.png] Finish testing for ui
 
 ==May 8, 2011==
 
