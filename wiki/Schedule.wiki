@@ -8,7 +8,7 @@
 
 ==May 5, 2011==
 
-  * Finish services viewer
+  * [https://github.com/evcordeiro/SNOctopus/wiki/fail.png] Finish services viewer  - _`This feature is not supported in the current Android API (at least not out of the box). I figured that someone must have done something similar before that required the API access needed for this task. After over 30 hours of research and coding, I realized the only way to perform this task will be by using a permission set that is locked by the manufacturer (each device manufacturer signs the code with a different key), and the only way to gain access will be to get the key from either Motorola, HTC or Samsung (the machines I have available for testing). Given the amount of time spent so far and the improbability of actually getting it, I've decided to move on to the part of the program that is actually promised in the deliverable. The time spent was not for nothing though, as I gained well needed understanding in manipulation of services. (see services wiki for more details)`_
   * [https://github.com/evcordeiro/SNOctopus/wiki/Accept.png] Finish testing for ui
 
 ==May 8, 2011==
