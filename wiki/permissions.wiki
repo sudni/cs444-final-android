@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary Android requires explicit permission requests from the user. More inside.
 
 = Permissions =
 
