@@ -5,11 +5,11 @@
 ===Websites used===
 _Note this list is not complete. I browsed thousands of websites, and only cite the ones that I actually used for this project._
 
-  * Android @ Xda-developers. <http://www.xda-developers.com/>.
+  * Android @ Xda-developers. http://www.xda-developers.com/.
 
-  * Android Developers. <http://developer.android.com/>.
+  * Android Developers. http://developer.android.com/.
 
-  * Android Asset Studio. <http://android-ui-utils.googlecode.com/hg/asset-studio/dist/index.html>.
+  * Android Asset Studio. http://android-ui-utils.googlecode.com/hg/asset-studio/dist/index.html.
 
 ===Books===
 
