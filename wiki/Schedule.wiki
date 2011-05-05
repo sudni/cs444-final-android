@@ -14,7 +14,8 @@
 ==May 8, 2011==
 
   * Timing: base case for 2 hard coded processes
-  * Finish wiki for services 
+  * Finish wiki for permissions
+  * [https://github.com/evcordeiro/SNOctopus/wiki/Accept.png] Finish wiki for services 
 
 ==May 11, 2011==
 
