@@ -1,3 +1,5 @@
+#summary User interface design - how it's done and why.
+
 =User Interface=
 
 This page will explain my experiences in building the user interface for this application. It will include a brief description of how the user interface works, different problems I encountered and how I solved them. 
