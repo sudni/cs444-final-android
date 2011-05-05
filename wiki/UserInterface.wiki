@@ -18,6 +18,8 @@ This page will explain my experiences in building the user interface for this ap
 
   * In manifest, we can decide on the visual style of said activity, by changing the theme. A good example of that can be seen in the manifest file line 19: "android:theme="@android:style/Theme.Dialog", which creates at activity that is shaped to the size of the the predefined layout (text in my case), while using a see-through background.  
 
+  * Permissions - Permissions are required to access many parts of the system and release portions of the API that grant access to different functionalities. To read more about the structure, go to [permissions].
+
 ===Menu===
 
-  * 
+  * Android allows you to create a popup (from the bottom, so it actually pops upwards) menu. This is a good option for less common preferences and other information that does't require the user's immediate attention. I've decided to add the about button, and a settings button. In the settings I have put two check boxes that determine whether to save the data to file and whether to email the data. Of course at this point of the project (5/4/11 8:15 PM) the buttons are not connected to any functionality just yet.
