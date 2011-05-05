@@ -1,4 +1,4 @@
-#summary Android requires explicit permission requests from the user. More inside.
+#summary Android requires explicit permission requests from the user. If we want to be able to start and stop services, we have to ask for it in advance. More inside.
 
 = Permissions =
 
