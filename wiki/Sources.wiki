@@ -1,6 +1,9 @@
+#summary Bibliography and websites used.
+
 =Bibliography=
 
 ===Websites used===
+_Note this list is not complete. I browsed thousands of websites, and only cite the ones that I actually used for this project._
 
   * Android @ Xda-developers. <http://www.xda-developers.com/>.
 
