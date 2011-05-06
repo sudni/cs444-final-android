@@ -67,6 +67,6 @@ To get the layout ifself to show my new made list, I created a Linear layout and
 </LinearLayout>
 }}}
 
-Despite my efforts, I ended up with a non working solution. It's hard to pinpoint the heart of the problem. All the feedback I've received was a force close (crash) when I load up the services activity. It could be that I did not ask for enough [permissions], or mis-configured the manifest activity. Either way, I've spent too many hours and deviated too far from the main goal (for what I thought will take and hour or two, and ended up being a 30 obsession). I will not implement the running services activity (it's not even in the defined deliverable), though the work that was invested in it deserve to be mentioned. 
+Despite my efforts, I ended up with a non working solution. It's hard to pinpoint the heart of the problem. All the feedback I've received was a force close (crash) when I load up the services activity. It could be that I did not ask for enough [permissions], or mis-configured the manifest activity. Either way, I've spent too many hours and deviated too far from the main goal (for what I thought will take and hour or two, and ended up being a 30 hour obsession). I will not implement the running services activity (it's not even in the defined deliverable), though the work that was invested in it deserve to be mentioned. 
 
 Throughout the process I learned the manipulation of services, which I am sure will help me in getting the timing done correctly and efficiently. 
