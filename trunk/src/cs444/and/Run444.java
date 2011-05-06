@@ -43,7 +43,7 @@ public class Run444 extends Activity implements OnClickListener{
     		startActivity(i);
     		break;
     	case R.id.new_button:
-    		i = new Intent(android.provider.Settings.ACTION_MANAGE_APPLICATIONS_SETTINGS);
+    		i = new Intent(this, Time.class);
     		startActivity(i);
     		break;
     		
