@@ -26,7 +26,11 @@
         <activity android:name=".Future"
         	android:label="@string/future_title"
         	android:theme="@android:style/Theme.Dialog">
-        </activity>        
+        </activity>     
+        
+        <activity android:name=".Time"
+        	android:label="@string/time_title">
+        </activity>   
         
         
 
