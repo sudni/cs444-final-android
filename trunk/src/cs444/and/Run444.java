@@ -10,12 +10,13 @@ import android.view.View;
 import android.view.View.OnClickListener;
 
 public class Run444 extends Activity implements OnClickListener{
+	
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-      
+   
         //click listeners for all the buttons
         View servicesButton = findViewById(R.id.services_button);
         servicesButton.setOnClickListener(this);
@@ -37,6 +38,15 @@ public class Run444 extends Activity implements OnClickListener{
     		Intent i = new Intent(this, About.class);
     		startActivity(i);
     		break;
+    	case R.id.services_button:
+    		i = new Intent(this, Future.class);
+    		startActivity(i);
+    		break;
+    	case R.id.new_button:
+    		i = new Intent(android.provider.Settings.ACTION_MANAGE_APPLICATIONS_SETTINGS);
+    		startActivity(i);
+    		break;
+    		
     	case R.id.exit_button:
     		finish();
     		break;

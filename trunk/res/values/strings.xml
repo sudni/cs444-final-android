@@ -11,8 +11,8 @@
     <string name="about_text">
     This application is designed to time and analyze
     running services on Android machines. \n \n Developer: 
-    Lior Ben-kiki \n Version: 0.1.2 
-    (released 4/25/2011) \n http://www.liorbk.com
+    Lior Ben-kiki \n Version: 0.1.4
+    (released 5/5/2011) \n http://www.liorbk.com
     </string>
     
     <string name="settings_label">Settings</string>
@@ -22,5 +22,16 @@
     <string name="save_summary">Save analyzed data to file</string>
     <string name="email_title">Email</string>
     <string name="email_summary">Email results to my inbox</string>
+    
+    <string name="runningservices_settings_title">Running Services mine</string>
+    
+    <string name="future_title">Under construction</string>
+    <string name="future_text">
+    This portion of the code is either not in the defined deliverable 
+    or is not ready for use. If you feel this feature should be included 
+    in the current build, go to http://code.google.com/p/cs444-final-android/
+    and initiate an issue to that matter. For direct assistance please e-mail
+    support@liorbk.com.
+    </string>
     
 </resources>
