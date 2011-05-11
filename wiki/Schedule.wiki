@@ -13,20 +13,20 @@
 
 ==May 8, 2011==
 
-  * Timing: base case for 2 hard coded processes
-  * Finish wiki for permissions
+  * [https://github.com/evcordeiro/SNOctopus/wiki/fail.png] Timing: base case for 2 hard coded processes - _`Due to heavy volume of assignments, I've had to push this back to May 12.`_
   * [https://github.com/evcordeiro/SNOctopus/wiki/Accept.png] Finish wiki for services 
 
 ==May 11, 2011==
 
-  * Timing: finish timing tester
+  * Finish wiki for permissions
 
 ==May 12, 2011==
 
   * Finish wiki for timing
-  * Finish testing for timing
+  * Timing: time switching complete
 
 ==May 13, 2011==
 
+  * Final testing
   * Package apk
   * Deliver To professor Cheung
