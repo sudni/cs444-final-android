@@ -46,7 +46,6 @@ public class Run444 extends Activity implements OnClickListener{
     		i = new Intent(this, Time.class);
     		startActivity(i);
     		break;
-    		
     	case R.id.exit_button:
     		finish();
     		break;

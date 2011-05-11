@@ -35,5 +35,12 @@
     </string>
     
     <string name="time_title">Time services</string>
+    <string name="start_button">Start Test</string>
+    
+    <string name="start_service1">Starting service 1</string>
+    <string name="start_service2">Starting service 2</string>
+    
+    <string name="stop_service1">Stopping service 1</string>
+    <string name="stop_service2">Stopping service 2</string>
     
 </resources>
