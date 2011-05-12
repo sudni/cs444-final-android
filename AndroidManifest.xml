@@ -10,7 +10,7 @@
     	android:label="@string/app_name"
     	android:debuggable="true">
     	
-        
+        //Activities start here
         <activity 
         	android:name=".Run444"
             android:label="@string/app_name">
@@ -43,7 +43,14 @@
         	android:label="@string/time_title">
         </activity>
         
+        //Services start here
+        <service 
+        	android:name=".Service1">
+        </service>
         
+        <service
+        	android:name=".Service2">
+        </service>
         
         
 
