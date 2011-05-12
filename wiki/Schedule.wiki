@@ -30,3 +30,7 @@
   * Final testing
   * Package apk
   * Deliver To professor Cheung
+
+==May 17, 2011==
+
+  * Demonstration at Prof. Cheung's office (6:00 pm)
