@@ -22,6 +22,8 @@
     <string name="save_summary">Save analyzed data to file</string>
     <string name="email_title">Email</string>
     <string name="email_summary">Email results to my inbox</string>
+    <string name="auto_title">Automatic test</string>
+    <string name="auto_summary">Run the test procedure automatically</string>
     
     <string name="runningservices_settings_title">Running Services mine</string>
     
@@ -42,5 +44,7 @@
     
     <string name="stop_service1">Stopping service 1</string>
     <string name="stop_service2">Stopping service 2</string>
+    
+    <string name="time_status">Test is not running</string>
     
 </resources>
