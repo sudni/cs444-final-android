@@ -18,7 +18,7 @@ public final class R {
         public static final int icon=0x7f020001;
     }
     public static final class id {
-        public static final int about=0x7f08000a;
+        public static final int about=0x7f08000b;
         public static final int about_button=0x7f080004;
         public static final int about_content=0x7f080000;
         public static final int exit_button=0x7f080005;
@@ -26,9 +26,10 @@ public final class R {
         public static final int linearLayout1=0x7f080006;
         public static final int new_button=0x7f080003;
         public static final int services_button=0x7f080002;
-        public static final int settings=0x7f080009;
+        public static final int settings=0x7f08000a;
         public static final int start_button=0x7f080008;
         public static final int textView1=0x7f080007;
+        public static final int time_status=0x7f080009;
     }
     public static final class layout {
         public static final int about=0x7f030000;
@@ -44,26 +45,29 @@ public final class R {
         public static final int about_text=0x7f060007;
         public static final int about_title=0x7f060006;
         public static final int app_name=0x7f060000;
+        public static final int auto_summary=0x7f060010;
+        public static final int auto_title=0x7f06000f;
         public static final int email_summary=0x7f06000e;
         public static final int email_title=0x7f06000d;
         public static final int exit_label=0x7f060005;
-        public static final int future_text=0x7f060011;
-        public static final int future_title=0x7f060010;
+        public static final int future_text=0x7f060013;
+        public static final int future_title=0x7f060012;
         public static final int main_title=0x7f060001;
         public static final int new_label=0x7f060003;
-        public static final int runningservices_settings_title=0x7f06000f;
+        public static final int runningservices_settings_title=0x7f060011;
         public static final int save_summary=0x7f06000c;
         public static final int save_title=0x7f06000b;
         public static final int services_label=0x7f060002;
         public static final int settings_label=0x7f060008;
         public static final int settings_shortcut=0x7f06000a;
         public static final int settings_title=0x7f060009;
-        public static final int start_button=0x7f060013;
-        public static final int start_service1=0x7f060014;
-        public static final int start_service2=0x7f060015;
-        public static final int stop_service1=0x7f060016;
-        public static final int stop_service2=0x7f060017;
-        public static final int time_title=0x7f060012;
+        public static final int start_button=0x7f060015;
+        public static final int start_service1=0x7f060016;
+        public static final int start_service2=0x7f060017;
+        public static final int stop_service1=0x7f060018;
+        public static final int stop_service2=0x7f060019;
+        public static final int time_status=0x7f06001a;
+        public static final int time_title=0x7f060014;
     }
     public static final class xml {
         public static final int settings=0x7f040000;

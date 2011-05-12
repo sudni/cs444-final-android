@@ -17,4 +17,11 @@
 		android:defaultValue="false"
 	/>	
 	
+	<CheckBoxPreference
+		android:key="auto"
+		android:title="@string/auto_title"
+		android:summary="@string/auto_summary"
+		android:defaultValue="true"
+	/>	
+	
 </PreferenceScreen>
