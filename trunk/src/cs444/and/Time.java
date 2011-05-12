@@ -3,6 +3,7 @@ package cs444.and;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -52,12 +53,13 @@ public class Time extends Activity implements OnClickListener{
 		
 		//start test here
 		if(which == 0)
-			newIncrementalTest();
+			newSPTest();
 		else
-			newCumulativeTest();
+			newUBTest();
 	}
 	
-	public void newIncrementalTest(){
+	//Single process - services started here will stay under a single process
+	public void newSPTest(){
 		//system time in milliseconds
 		long time1;
 		long time2;
@@ -73,30 +75,31 @@ public class Time extends Activity implements OnClickListener{
 	    t.setText(status);
 	    
 	    //start service 1
+	    startService(new Intent(Time.this, Service1.class));
 	    time2 = System.currentTimeMillis();
 	    status = status + "\n" + (time2 - time1) + ": Service 1 Started";
 	    t.setText(status);
 	    
 	    //start service 2
+	    startService(new Intent(Time.this, Service2.class));
 	    time1 = System.currentTimeMillis();
 	    status = status + "\n" + (time1-time2) + ": Service 2 Started";
 	    t.setText(status);
-	    
-	    //unbind services
-	    time2 = System.currentTimeMillis();
-	    status = status + "\n" + (time2-time1) + ": Services unbound";
-	    t.setText(status);
-
 	    
 	    //switch services
 	    time1 = System.currentTimeMillis();
 	    status = status + "\n" + (time1-time2) + ": Services switched";
 	    t.setText(status);
+	    
+	    //Kill Service 1 - optional
+	    
+	    //Kill Service 2 - optional
 		
 		
 	}
 	
-	public void newCumulativeTest(){
+	//Unbound - Services started here will be separated into different processes
+	public void newUBTest(){
 		//system time in milliseconds
 		long baseTime;
 		long time2;
@@ -112,11 +115,13 @@ public class Time extends Activity implements OnClickListener{
 	    t.setText(status);
 	    
 	    //start service 1
+	    startService(new Intent(Time.this, Service1.class));
 	    time2 = System.currentTimeMillis();
 	    status = status + "\n" + (time2 - baseTime) + ": Service 1 Started";
 	    t.setText(status);
 	    
 	    //start service 2
+	    startService(new Intent(Time.this, Service2.class));
 	    time2 = System.currentTimeMillis();
 	    status = status + "\n" + (time2-baseTime) + ": Service 2 Started";
 	    t.setText(status);
