@@ -22,7 +22,7 @@
 
 ==May 12, 2011==
 
-  * Finish wiki for timing
+  * [https://github.com/evcordeiro/SNOctopus/wiki/Accept.png] Finish wiki for timing
   * Timing: time switching complete
 
 ==May 13, 2011==
