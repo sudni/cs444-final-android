@@ -25,6 +25,8 @@ public void onDestroy(){
 	}
 }}}
 
+[http://www.liorbk.com/img/runningservices1.png]
+
 === Running services ===
 
 Android offers a services manager that is being supported natively since version 2.0. This services manager will display all the running services and group them by process (usually a process is connected to one app, unless binded with another). Running services also shows available memory and running time. 
