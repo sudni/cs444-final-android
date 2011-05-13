@@ -2,7 +2,7 @@
 
 <resources>
 	<array name="timing_type">
-		<item>"Single process"</item>
-		<item>"Unbound"</item>
+		<item>"Multiple processes"</item>
+		<item>"Single Process"</item>
 	</array>
 </resources>
