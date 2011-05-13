@@ -11,8 +11,8 @@
     <string name="about_text">
     This application is designed to time and analyze
     running services on Android machines. \n \n Developer: 
-    Lior Ben-kiki \n Version: 0.1.4
-    (released 5/5/2011) \n http://www.liorbk.com
+    Lior Ben-kiki \n Version: 1.0
+    (released 5/13/2011) \n http://www.liorbk.com
     </string>
     
     <string name="settings_label">Settings</string>
