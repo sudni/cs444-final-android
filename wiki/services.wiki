@@ -10,6 +10,7 @@ A Service is an application component that can perform long-running operations i
 As everything else in Android, when it comes to services, you need to make sure you account for a service in multiple places that need to know about it. I started by creating a Java file names Service1.java, and made sure that `public class Service1 extends Service`. 
 Eclipse was kind enough to auto-implement the needed methods, and left me with the relevant chunk of coding. Since this is just a dummy service, I didn't have to give it any specific role, and just made methods what will bring it to life and kill it. 
 {{{
+//This is just a standard create service
 public void onCreate(){
 		super.onCreate();
 		Toast.makeText(this, "Service 1 created", Toast.LENGTH_LONG).show();	
@@ -25,7 +26,31 @@ public void onDestroy(){
 	}
 }}}
 
+This screen shot shows the two services running on the Android emulator, running version 2.2 (Froyo)
 [http://www.liorbk.com/img/runningservices1.png]
+
+I've created a second service called Service2.java that does the exact same thing. The second part was to account for the services in the manifest file (otherwise the program will crash).
+
+{{{
+<service 
+        android:name=".Service1">
+</service>
+        
+<service
+        android:name=".Service2">
+</service>
+}}}
+
+The third place is in Time.java, where I call the start and stopping of the service calls. Time.java is also responsible for the time taking and calculating. 
+{{{
+//start
+startService(new Intent(Time.this, Service1.class));
+
+//stop
+stopService(new Intent(Time.this, Service1.class));
+}}}
+
+Timing is a part of a package called currentTimeMillis, that is under System. The call returns a long with current time in milliseconds. All I did for this practice in terms of timing was to take the current time after each operation and subtract it from the most recent time before that. 
 
 === Running services ===
 
