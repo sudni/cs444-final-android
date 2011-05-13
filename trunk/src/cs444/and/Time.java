@@ -60,13 +60,13 @@ public class Time extends Activity implements OnClickListener{
 		
 		//start test here
 		if(which == 0)
-			newSPTest();
+			newMultiProcessesTest();
 		else
-			newUBTest();
+			newSingleProcessTest();
 	}
 	
 	//Single process - services started here will stay under a single process
-	public void newSPTest(){
+	public void newMultiProcessesTest(){
 		//system time in milliseconds
 		long time1;
 		long time2;
@@ -94,7 +94,7 @@ public class Time extends Activity implements OnClickListener{
 	    t.setText(status);
 	    
 	    //switch services
-	    
+	    this.getWallpaper();
 	    time2 = System.currentTimeMillis();
 	    status = status + "\n" + (time2-time1) + ": Services switched";
 	    t.setText(status);
@@ -104,7 +104,7 @@ public class Time extends Activity implements OnClickListener{
 	}
 	
 	//Unbound - Services started here will be separated into different processes
-	public void newUBTest(){
+	public void newSingleProcessTest(){
 		//system time in milliseconds
 		long time1;
 		long time2;
