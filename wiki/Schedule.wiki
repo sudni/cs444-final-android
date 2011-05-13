@@ -28,7 +28,7 @@
 ==May 13, 2011==
 
   * Final testing
-  * Finish wiki for permissions
+  * [https://github.com/evcordeiro/SNOctopus/wiki/Accept.png] Finish wiki for permissions
   * Package apk
   * Deliver To professor Cheung
 
