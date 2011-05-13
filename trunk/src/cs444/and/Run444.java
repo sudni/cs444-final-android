@@ -2,6 +2,9 @@ package cs444.and;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
+import android.content.pm.PackageManager.NameNotFoundException;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -30,6 +33,17 @@ public class Run444 extends Activity implements OnClickListener{
         View exitButton = findViewById(R.id.exit_button);
         exitButton.setOnClickListener(this);
     }
+    
+    public static PackageInfo getPackageInfo(PackageManager pm, String name) {
+        PackageInfo ret = null;
+        try {
+            ret = pm.getPackageInfo(name, PackageManager.GET_ACTIVITIES);
+        } catch (NameNotFoundException e) {
+            // e.printStackTrace();
+        }
+        return ret;
+    }
+    
     
     //actions that respond to main menu buttons
     public void onClick(View v) {
