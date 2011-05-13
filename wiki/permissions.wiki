@@ -26,4 +26,4 @@ The relevant permissions I started with were:
 "android.permission-group.DEVELOPMENT_TOOLS"
 }}}
 After getting those, I started removing unnecessary permissions, until I managed to get my code to work with no external permissions. Since all my services run under my authority (my process), and when unbound, I leave them to be orphaned under null service. I didn't need any permissions. 
-Perhaps I needed some to get the [running services] activity to work, but I could not manage to get it to run, not matter how many permissions I threw in there. 
+Perhaps I needed some to get the "running services" activity to work, but I could not manage to get it to run, not matter how many permissions I threw in there. 
