@@ -3,6 +3,7 @@ package cs444.and;
 import android.app.Service;
 import android.content.Intent;
 import android.os.IBinder;
+import android.util.Log;
 import android.widget.Toast;
 
 public class Service2 extends Service{
@@ -29,5 +30,11 @@ public class Service2 extends Service{
 		
 		paused = true;
 	}
+	
+	public int onStartCommand(Intent intent, int flags, int startId) {
+        Log.i("LocalService", "Received start id " + startId + ": " + intent);
+       
+        return START_STICKY;
+    }
 
 }
