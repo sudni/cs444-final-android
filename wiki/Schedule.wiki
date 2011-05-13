@@ -18,16 +18,17 @@
 
 ==May 11, 2011==
 
-  * Finish wiki for permissions
+  * [https://github.com/evcordeiro/SNOctopus/wiki/fail.png] Finish wiki for permissions - _`Since this wiki was of lower priority I've moved it to the 13th, and decided to spend my time on timing tasks.`_
 
 ==May 12, 2011==
 
   * [https://github.com/evcordeiro/SNOctopus/wiki/Accept.png] Finish wiki for timing
-  * Timing: time switching complete
+  * [https://github.com/evcordeiro/SNOctopus/wiki/Accept.png] Timing: time switching complete
 
 ==May 13, 2011==
 
   * Final testing
+  * Finish wiki for permissions
   * Package apk
   * Deliver To professor Cheung
 
