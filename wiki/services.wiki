@@ -5,10 +5,25 @@
 A Service is an application component that can perform long-running operations in the background and does not provide a user interface. Another application component can start a service and it will continue to run in the background even if the user switches to another application. Additionally, a component can bind to a service to interact with it and even perform interprocess communication (IPC). For example, a service might handle network transactions, play music, perform file I/O, or interact with a content provider, all from the background. (Android official Dev)
 
 
-=== Start & stop, foreground & background === 
+=== Start, stop & switch === 
 
-//TODO my timing strategy
+As everything else in Android, when it comes to services, you need to make sure you account for a service in multiple places that need to know about it. I started by creating a Java file names Service1.java, and made sure that `public class Service1 extends Service`. 
+Eclipse was kind enough to auto-implement the needed methods, and left me with the relevant chunk of coding. Since this is just a dummy service, I didn't have to give it any specific role, and just made methods what will bring it to life and kill it. 
+{{{
+public void onCreate(){
+		super.onCreate();
+		Toast.makeText(this, "Service 1 created", Toast.LENGTH_LONG).show();	
+		paused = false;
+	}
+}}}
 
+{{{
+public void onDestroy(){
+		super.onDestroy();
+		Toast.makeText(this, "Service 1 destroyed", Toast.LENGTH_LONG).show();
+		paused = true;
+	}
+}}}
 
 === Running services ===
 
