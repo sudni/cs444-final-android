@@ -6,7 +6,8 @@
 	<item
 		android:id="@+id/friends"
 		android:title="@string/friends_label"
-		android:alphabeticShortcut="@string/friends_label" android:icon="@drawable/ic_menu_users"/>
+		android:alphabeticShortcut="@string/friends_label" 
+		android:icon="@drawable/ic_menu_users"/>
 		
 	<item
 		android:id="@+id/settings"
